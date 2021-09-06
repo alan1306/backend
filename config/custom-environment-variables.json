@@ -1,4 +1,4 @@
 {
     "jwtPrivateKey":"EduLearn_jwtPrivateKey",
-    "db":"EduLearn_db"
+    "db":"db_"
 }
