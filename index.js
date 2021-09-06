@@ -19,7 +19,7 @@ if(!config.get('jwtPrivateKey')){
     console.error("FATAL ERROR jwt token not defined");
     process.exit(1);
 }
-mongoose.connect('mongodb://localhost/EduLearn')
+mongoose.connect('mongodb+srv://alan_admin_user_13:Alan130625@cluster0.j7bwp.mongodb.net/EduLearn?retryWrites=true&w=majority')
     .then(()=>console.log('connectes to database'))
     .catch(err =>console.log('error connecting',err))
 app.use(express.static('public'));
